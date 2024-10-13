@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecasting</title>
+    <link rel="icon" href="images/cloud.svg" />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="font-sans bg-weather-bg bg-cover bg-center bg-no-repeat min-screen"
+  >
+    <div class="flex justify-center items-center min-h-screen">
+      <div
+        class="container bg-blue-200 items-center p-20 min-vh-400 w-2/4 h-2/4 rounded-md flex flex-row"
+      >
+        <h1 class="font-bold flex-shrink-0">Weather App:</h1>
+        <div class="search flex justify-center items-center w-full">
+          <input
+            class="p-3 w-full rounded-md"
+            type="text"
+            placeholder="Please Enter City"
+            spellcheck="false"
+            id="input"
+            name="cityInput"
+          />
+          <button>
+            <img class="w-10 h-10" src="images/search-black.svg" alt="search" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="weather">
+      <img src="images/rain.svg" class="weather-icon" alt="" />
+      <h1 class="temp">22℃</h1>
+      <h2 class="city">Haatso</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

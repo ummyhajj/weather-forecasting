@@ -4,7 +4,7 @@
   "description": "This shows the weather of a location.",
   "main": "index.js",
   "scripts": {
-    "tailwind": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./build/output.css --watch"
   },
   "keywords": [],
   "author": "",
