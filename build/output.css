@@ -642,7 +642,7 @@ video {
 }
 
 .bg-weather-bg {
-  background-image: url('/public/img/bg-image.jpg');
+  background-image: url('/build/images/bg-image.jpg');
 }
 
 .bg-cover {
